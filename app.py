@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/greek")
 @app.route('/greek/<request>')
-def say_hello(request="cc"):
+def say_hello(request="雨欣"):
     a = 1
     b = 2
     return f"{a + b} hello {request} 我来啦！!!"
